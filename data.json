@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-02-19T02:01:11.790Z",
+  "system": {
+    "status": "unknown",
+    "agents": 0,
+    "timestamp": "2026-02-19T02:01:11.834Z"
+  },
+  "crons": {
+    "total": 0,
+    "enabled": 0,
+    "disabled": 0,
+    "jobs": []
+  },
+  "queue": {
+    "pending": 0,
+    "in_progress": 0,
+    "completed": 1,
+    "failed": 2,
+    "avg_duration": null
+  },
+  "costs": {
+    "today": {
+      "cost": 0,
+      "executions": 0,
+      "tokens": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "week": {
+      "cost": 0.0639,
+      "active_jobs": 3
+    },
+    "month": {
+      "cost": 0.0639,
+      "projected": 0.0639
+    }
+  },
+  "activity": []
+}
