@@ -1,15 +1,142 @@
 {
-  "generated_at": "2026-02-20T07:49:40.351Z",
+  "generated_at": "2026-02-20T08:06:58.197Z",
   "system": {
     "status": "unknown",
-    "agents": 0,
-    "timestamp": "2026-02-20T07:49:40.392Z"
+    "agents": 4,
+    "timestamp": "2026-02-20T08:06:58.240Z"
   },
   "crons": {
-    "total": 0,
-    "enabled": 0,
+    "total": 21,
+    "enabled": 21,
     "disabled": 0,
-    "jobs": []
+    "jobs": [
+      {
+        "name": "check:email",
+        "schedule": 1800000,
+        "agent": "main",
+        "enabled": true
+      },
+      {
+        "name": "check:calendar",
+        "schedule": 3600000,
+        "agent": "main",
+        "enabled": true
+      },
+      {
+        "name": "ops:git-sync",
+        "schedule": "0 0,6,12,18 * * *",
+        "agent": "main",
+        "enabled": true
+      },
+      {
+        "name": "brief:morning",
+        "schedule": "0 8 * * *",
+        "agent": "main",
+        "enabled": true
+      },
+      {
+        "name": "brief:bernstein-intel",
+        "schedule": "0 9,18 * * *",
+        "agent": "reporter",
+        "enabled": true
+      },
+      {
+        "name": "brief:bernstein-dev",
+        "schedule": "0 9,18 * * *",
+        "agent": "reporter",
+        "enabled": true
+      },
+      {
+        "name": "brief:crypto",
+        "schedule": "0 8 * * *",
+        "agent": "reporter",
+        "enabled": true
+      },
+      {
+        "name": "brief:crypto-trading",
+        "schedule": "0 9,21 * * *",
+        "agent": "reporter",
+        "enabled": true
+      },
+      {
+        "name": "brief:coach",
+        "schedule": "0 9 * * *",
+        "agent": "reporter",
+        "enabled": true
+      },
+      {
+        "name": "work:dev",
+        "schedule": "0 8 * * *",
+        "agent": "worker",
+        "enabled": true
+      },
+      {
+        "name": "work:follow-up",
+        "schedule": "0 9 * * *",
+        "agent": "worker",
+        "enabled": true
+      },
+      {
+        "name": "work:ip-content",
+        "schedule": "0 10,16 * * *",
+        "agent": "worker",
+        "enabled": true
+      },
+      {
+        "name": "work:kesef-dev",
+        "schedule": "0 8 * * 1-5",
+        "agent": "worker",
+        "enabled": true
+      },
+      {
+        "name": "work:self-improvement",
+        "schedule": "0 */3 * * *",
+        "agent": "improver",
+        "enabled": true
+      },
+      {
+        "name": "brief:improver-status",
+        "schedule": "0 9,18 * * *",
+        "agent": "reporter",
+        "enabled": true
+      },
+      {
+        "name": "brief:kesef-status",
+        "schedule": "0 9,18 * * *",
+        "agent": "reporter",
+        "enabled": true
+      },
+      {
+        "name": "work:queue-process",
+        "schedule": "*/15 * * * *",
+        "agent": "worker",
+        "enabled": true
+      },
+      {
+        "name": "check:open-loops",
+        "schedule": "0 */6 * * *",
+        "agent": "main",
+        "enabled": true
+      },
+      {
+        "name": "brief:dashboard-status",
+        "schedule": "0 9,18 * * *",
+        "agent": "reporter",
+        "enabled": true
+      },
+      {
+        "name": "ops:dashboard-publish",
+        "schedule": 900000,
+        "agent": "main",
+        "enabled": true
+      },
+      {
+        "name": "BTC/USDC Grid Trading Monitor",
+        "schedule": 300000,
+        "agent": "main",
+        "enabled": true
+      }
+    ]
   },
   "queue": {
     "pending": 0,
