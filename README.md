@@ -31,8 +31,9 @@ Public URL
 
 This dashboard is automatically updated every 15 minutes via cron job `ops:dashboard-publish`.
 
-**Platform:** Cloudflare Pages  
-**URL:** [To be configured]
+**Platform:** GitHub Pages  
+**URL:** https://cortex-sentinel.github.io/cortex-status/  
+**Status:** ✅ Deployed (initial build may take 2-5 minutes)
 
 ## Files
 
