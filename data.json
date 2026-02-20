@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-20T13:49:36.608Z",
+  "generated_at": "2026-02-20T14:19:36.211Z",
   "system": {
-    "status": "healthy",
+    "status": "unknown",
     "agents": 4,
-    "timestamp": "2026-02-20T13:49:36.650Z"
+    "timestamp": "2026-02-20T14:19:36.260Z"
   },
   "crons": {
     "total": 22,
@@ -148,7 +148,7 @@
     "pending": 0,
     "in_progress": 0,
     "completed": 1,
-    "failed": 2,
+    "failed": 3,
     "avg_duration": null
   },
   "costs": {
