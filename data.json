@@ -1,173 +1,176 @@
 {
-  "generated_at": "2026-02-20T17:34:35.884Z",
-  "system": {
-    "status": "unknown",
-    "agents": 4,
-    "timestamp": "2026-02-20T17:34:35.934Z"
+  "generated_at": "2026-02-20T20:20:43.883Z",
+  "prospects": [],
+  "invoices": {
+    "total_sent": 0,
+    "total_paid": 0,
+    "total_outstanding": 0,
+    "revenue_mtd": 0,
+    "items": []
   },
-  "crons": {
-    "total": 22,
-    "enabled": 22,
-    "disabled": 0,
-    "jobs": [
-      {
-        "name": "check:email",
-        "schedule": 1800000,
-        "agent": "main",
-        "enabled": true
+  "pipeline": {
+    "total_value": 0,
+    "weighted_value": 0,
+    "stages": {
+      "lead": {
+        "count": 0,
+        "value": 0
       },
-      {
-        "name": "check:calendar",
-        "schedule": 3600000,
-        "agent": "main",
-        "enabled": true
+      "contacted": {
+        "count": 0,
+        "value": 0
       },
-      {
-        "name": "ops:git-sync",
-        "schedule": "0 0,6,12,18 * * *",
-        "agent": "main",
-        "enabled": true
+      "responded": {
+        "count": 0,
+        "value": 0
       },
-      {
-        "name": "brief:morning",
-        "schedule": "0 8 * * *",
-        "agent": "main",
-        "enabled": true
+      "meeting": {
+        "count": 0,
+        "value": 0
       },
-      {
-        "name": "brief:bernstein-intel",
-        "schedule": "0 9,18 * * *",
-        "agent": "reporter",
-        "enabled": true
+      "proposal": {
+        "count": 0,
+        "value": 0
       },
-      {
-        "name": "brief:bernstein-dev",
-        "schedule": "0 9,18 * * *",
-        "agent": "reporter",
-        "enabled": true
+      "closed_won": {
+        "count": 0,
+        "value": 0
       },
-      {
-        "name": "brief:crypto",
-        "schedule": "0 8 * * *",
-        "agent": "reporter",
-        "enabled": true
-      },
-      {
-        "name": "brief:crypto-trading",
-        "schedule": "0 9,21 * * *",
-        "agent": "reporter",
-        "enabled": true
-      },
-      {
-        "name": "brief:coach",
-        "schedule": "0 9 * * *",
-        "agent": "reporter",
-        "enabled": true
-      },
-      {
-        "name": "work:dev",
-        "schedule": "0 8 * * *",
-        "agent": "worker",
-        "enabled": true
-      },
-      {
-        "name": "work:follow-up",
-        "schedule": "0 9 * * *",
-        "agent": "worker",
-        "enabled": true
-      },
-      {
-        "name": "work:ip-content",
-        "schedule": "0 10,16 * * *",
-        "agent": "worker",
-        "enabled": true
-      },
-      {
-        "name": "work:kesef-dev",
-        "schedule": "0 8 * * 1-5",
-        "agent": "worker",
-        "enabled": true
-      },
-      {
-        "name": "work:self-improvement",
-        "schedule": "0 */3 * * *",
-        "agent": "improver",
-        "enabled": true
-      },
-      {
-        "name": "brief:improver-status",
-        "schedule": "0 9,18 * * *",
-        "agent": "reporter",
-        "enabled": true
-      },
-      {
-        "name": "brief:kesef-status",
-        "schedule": "0 9,18 * * *",
-        "agent": "reporter",
-        "enabled": true
-      },
-      {
-        "name": "work:queue-process",
-        "schedule": "*/15 * * * *",
-        "agent": "worker",
-        "enabled": true
-      },
-      {
-        "name": "check:open-loops",
-        "schedule": "0 */6 * * *",
-        "agent": "main",
-        "enabled": true
-      },
-      {
-        "name": "brief:dashboard-status",
-        "schedule": "0 9,18 * * *",
-        "agent": "reporter",
-        "enabled": true
-      },
-      {
-        "name": "ops:dashboard-publish",
-        "schedule": 900000,
-        "agent": "main",
-        "enabled": true
-      },
-      {
-        "name": "BTC/USDC Grid Trading Monitor",
-        "schedule": 300000,
-        "agent": "main",
-        "enabled": true
-      },
-      {
-        "name": "work:improvement-review",
-        "schedule": "0 9 * * 1",
-        "agent": "worker",
-        "enabled": true
-      }
-    ]
-  },
-  "queue": {
-    "pending": 0,
-    "in_progress": 0,
-    "completed": 1,
-    "failed": 3,
-    "avg_duration": null
-  },
-  "costs": {
-    "today": {
-      "cost": 0,
-      "executions": 0,
-      "tokens": {
-        "input": 0,
-        "output": 0
+      "closed_lost": {
+        "count": 0,
+        "value": 0
       }
     },
-    "week": {
-      "cost": 0.0639,
-      "active_jobs": 3
+    "proposals": []
+  },
+  "content": [],
+  "activity": [],
+  "crypto": {
+    "mining": {
+      "status": "offline",
+      "hashrate": {
+        "current": 0,
+        "avg60s": 0,
+        "avg15m": 0,
+        "max": 0
+      },
+      "shares": {
+        "accepted": 0,
+        "rejected": 0
+      },
+      "uptime": null,
+      "lastUpdate": null,
+      "estimatedDaily": {
+        "usd": 0,
+        "eur": 0
+      },
+      "estimatedMonthly": {
+        "usd": 0,
+        "eur": 0
+      }
     },
-    "month": {
-      "cost": 0.0639,
-      "projected": 0.0639
+    "trading": {
+      "status": "inactive",
+      "lastCheck": null,
+      "btcPrice": 0,
+      "openOrders": 0,
+      "totalProfit": 0,
+      "cycles": 0,
+      "gridStatus": "unknown"
+    },
+    "portfolio": {
+      "btcHoldings": 0,
+      "btcValueUsd": 0,
+      "btcValueEur": 0,
+      "totalValueUsd": 0,
+      "totalValueEur": 0
     }
   },
-  "activity": []
+  "actions": [],
+  "tools": [
+    {
+      "name": "Dashboard API",
+      "icon": "🖥️",
+      "status": "unknown",
+      "detail": "Checking..."
+    },
+    {
+      "name": "OpenClaw Agent",
+      "icon": "🤖",
+      "status": "online",
+      "detail": "Running"
+    },
+    {
+      "name": "IP Intelligence",
+      "icon": "🔍",
+      "status": "online",
+      "detail": "Daily 7:00 AM"
+    },
+    {
+      "name": "Email (Resend)",
+      "icon": "📧",
+      "status": "online",
+      "detail": "cortex@wnbx.net"
+    },
+    {
+      "name": "Prospect CRM",
+      "icon": "🎯",
+      "status": "offline",
+      "detail": "0 prospects"
+    },
+    {
+      "name": "Invoice Tracker",
+      "icon": "💳",
+      "status": "offline",
+      "detail": "€0 sent"
+    },
+    {
+      "name": "Content Engine",
+      "icon": "📝",
+      "status": "online",
+      "detail": "0 pieces ready"
+    },
+    {
+      "name": "WhatsApp",
+      "icon": "💬",
+      "status": "online",
+      "detail": "Connected"
+    },
+    {
+      "name": "Calendar",
+      "icon": "📅",
+      "status": "online",
+      "detail": "macOS Calendar"
+    },
+    {
+      "name": "Git/GitHub",
+      "icon": "🔀",
+      "status": "online",
+      "detail": "All repos synced"
+    },
+    {
+      "name": "Bernstein Web",
+      "icon": "🌐",
+      "status": "online",
+      "detail": "Rails 8"
+    },
+    {
+      "name": "Bernstein Core",
+      "icon": "🔐",
+      "status": "online",
+      "detail": "Rails 7.2 • ~68%"
+    },
+    {
+      "name": "XMRig Mining",
+      "icon": "⛏️",
+      "status": "offline",
+      "detail": "Offline"
+    },
+    {
+      "name": "Grid Trading",
+      "icon": "📈",
+      "status": "offline",
+      "detail": "0 orders • $0"
+    }
+  ]
 }
