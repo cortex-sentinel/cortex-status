@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-21T12:34:34.144Z",
+  "generated_at": "2026-02-21T12:49:35.719Z",
   "system": {
-    "status": "healthy",
+    "status": "unknown",
     "agents": 5,
-    "timestamp": "2026-02-21T12:34:34.187Z"
+    "timestamp": "2026-02-21T12:49:35.767Z"
   },
   "crons": {
     "total": 24,
