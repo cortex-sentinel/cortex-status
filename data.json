@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-02-21T04:49:34.851Z",
+  "generated_at": "2026-02-21T05:19:33.974Z",
   "system": {
     "status": "unknown",
     "agents": 5,
-    "timestamp": "2026-02-21T04:49:34.890Z"
+    "timestamp": "2026-02-21T05:19:34.017Z"
   },
   "crons": {
-    "total": 22,
-    "enabled": 22,
+    "total": 24,
+    "enabled": 24,
     "disabled": 0,
     "jobs": [
       {
@@ -127,6 +127,18 @@
       {
         "name": "ops:dashboard-publish",
         "schedule": 900000,
+        "agent": "main",
+        "enabled": true
+      },
+      {
+        "name": "ops:memory-maintain",
+        "schedule": "0 3 * * 0",
+        "agent": "improver",
+        "enabled": true
+      },
+      {
+        "name": "ops:memory-index",
+        "schedule": "0 */6 * * *",
         "agent": "main",
         "enabled": true
       },
