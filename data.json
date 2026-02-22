@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-02-22T19:49:35.083Z",
+  "generated_at": "2026-02-22T20:19:37.817Z",
   "system": {
     "status": "unknown",
     "agents": 5,
-    "timestamp": "2026-02-22T19:49:35.134Z"
+    "timestamp": "2026-02-22T20:19:37.870Z"
   },
   "crons": {
-    "total": 24,
-    "enabled": 24,
+    "total": 25,
+    "enabled": 25,
     "disabled": 0,
     "jobs": [
       {
@@ -152,6 +152,12 @@
         "name": "work:improvement-review",
         "schedule": "0 9 * * 1",
         "agent": "worker",
+        "enabled": true
+      },
+      {
+        "name": "brief:weekly-report",
+        "schedule": "30 9 * * 1",
+        "agent": "reporter",
         "enabled": true
       }
     ]
