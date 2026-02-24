@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-23T23:36:16.498Z",
+  "generated_at": "2026-02-24T00:20:36.007Z",
   "system": {
     "status": "unknown",
     "agents": 5,
-    "timestamp": "2026-02-23T23:36:16.541Z"
+    "timestamp": "2026-02-24T00:20:36.051Z"
   },
   "crons": {
     "total": 26,
@@ -177,16 +177,16 @@
   },
   "costs": {
     "today": {
-      "cost": 0.011200000000000002,
-      "executions": 2,
+      "cost": 0,
+      "executions": 0,
       "tokens": {
-        "input": 4000,
-        "output": 2000
+        "input": 0,
+        "output": 0
       }
     },
     "week": {
-      "cost": 0.0751,
-      "active_jobs": 5
+      "cost": 0.011200000000000002,
+      "active_jobs": 2
     },
     "month": {
       "cost": 0.0751,
