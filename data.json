@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-02T23:49:35.776Z",
+  "generated_at": "2026-03-03T00:04:34.635Z",
   "system": {
     "status": "healthy",
     "agents": 5,
-    "timestamp": "2026-03-02T23:49:35.840Z"
+    "timestamp": "2026-03-03T00:04:36.180Z"
   },
   "crons": {
     "total": 27,
@@ -191,8 +191,8 @@
       }
     },
     "week": {
-      "cost": 0.011200000000000002,
-      "active_jobs": 2
+      "cost": 0,
+      "active_jobs": 0
     },
     "month": {
       "cost": 0.0751,
